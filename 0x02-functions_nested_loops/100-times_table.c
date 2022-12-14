@@ -1,11 +1,9 @@
 #include "main.h"
-
 /**
  * print_times_table - Entry point
  * @n: input
  * Return: Always 0 (Success)
  */
-
 void print_times_table(int n)
 
 {
@@ -24,16 +22,12 @@ void print_times_table(int n)
 					{
 						_putchar(',');
 						_putchar(' ');
-
 					}
 					if (res < 10 && j != 0)
 					{
 						_puchar(' ');
-
 						_putchar(' ');
-
 						_putchar((res % 10) + '0');
-
 					}
 
 					else if (res >= 10 && res < 100)
@@ -50,13 +44,9 @@ void print_times_table(int n)
 					}
 					else
 						_putchar((res % 10) + '0');
-
 				}
 
 				_putchar('\n');
-
 			}
-
 		}
-
 }
