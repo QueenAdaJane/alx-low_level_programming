@@ -1,4 +1,3 @@
-Task 1.txt
 #include <stdio.h>
 
 int main(void)
